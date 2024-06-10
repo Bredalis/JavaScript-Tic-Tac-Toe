@@ -7,9 +7,19 @@
   --mark-size: calc(var(--cell-size) * .9);
 }
 
+* {
+  font-family: monospace;
+}
+
 body {
   margin: 0;
   background-color: #c7f9cc;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: -120px;
 }
 
 .board {
